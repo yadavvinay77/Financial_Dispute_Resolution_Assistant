@@ -1,7 +1,13 @@
 # app/services/vector_store.py
 
-import os, json, faiss, numpy as np
+# Standard library imports
+import json
+import os
 from threading import Lock
+
+# Third-party imports
+import faiss
+import numpy as np
 
 VECTOR_DIR = "vector_store"
 INDEX_FILE = os.path.join(VECTOR_DIR, "faiss_index.bin")
