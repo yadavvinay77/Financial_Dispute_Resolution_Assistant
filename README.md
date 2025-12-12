@@ -1,4 +1,4 @@
-# 📘 FDR-GenAI  
+# 📘 Financial Dispute Resolution Assistant - GenAI  
 ### Financial Dispute Resolution Assistant (GenAI + Machine Learning)
 
 An end-to-end, production-style **Generative AI + Machine Learning system** designed to assist financial dispute resolution caseworkers (e.g., Financial Ombudsman Service) by automating document understanding, evidence extraction, classification, severity scoring, and next-step recommendations.
