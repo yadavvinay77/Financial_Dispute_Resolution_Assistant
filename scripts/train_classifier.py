@@ -49,7 +49,7 @@ cm = confusion_matrix(y_test, y_pred)
 print(cm)
 
 # Plot confusion matrix
-plt.figure(figsize=(8,6))
+plt.figure(figsize=(8, 6))
 sns.heatmap(cm, annot=True, cmap="Blues",
             xticklabels=clf.classes_,
             yticklabels=clf.classes_)
