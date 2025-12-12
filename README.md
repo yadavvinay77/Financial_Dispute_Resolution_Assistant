@@ -175,15 +175,14 @@ Medium (60%)
 🔍 Evidence Used
 Exact supporting complaint text shown in UI.
 
-###  Recommended Steps
-### 📌 Recommended Steps
+## 📌 Recommended Steps
 Request justification for interest change
 
 Review loan agreement notification clauses
 
 Assess FCA fair-lending compliance
 
-### ☁️ Azure / Production Mapping (Conceptual)
+## ☁️ Azure / Production Mapping (Conceptual)
 Local Component	Azure Equivalent
 FastAPI	Azure Functions / App Service
 FAISS	Azure AI Search
@@ -192,7 +191,7 @@ CSV Dataset	Azure Blob Storage
 Training Script	Azure ML Pipeline
 Logs	Application Insights
 
-### 🧠 Design Principles
+## 🧠 Design Principles
 Explainability over automation
 
 Evidence-first reasoning
@@ -203,10 +202,10 @@ Graceful degradation
 
 Human-in-the-loop decisions
 
-### 🎤 Interview Talking Point
+## 🎤 Interview Talking Point
 “I built an end-to-end GenAI system with supervised ML retraining, RAG-based evidence retrieval, streaming UX, and explainable severity scoring — designed for regulated environments.”
 
-### 📌 Future Enhancements
+## 📌 Future Enhancements
 UI-based model retraining
 
 LLM vs ML disagreement alerts
@@ -217,7 +216,7 @@ CI/CD with GitHub Actions
 
 Full Azure deployment
 
-### 👤 Author
+## 👤 Author
 Vinaykumar Yadav
 Data Scientist | Machine Learning Engineer
 MSc Artificial Intelligence (Distinction)
