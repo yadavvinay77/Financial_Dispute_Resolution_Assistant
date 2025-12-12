@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# Data & logs
+data/
+logs/
+
+# Vector stores / embeddings (can be large)
+vector_store/
+
+# Temporary / debug files
+dump_code.txt
+present_code.txt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

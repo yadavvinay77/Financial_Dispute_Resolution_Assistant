@@ -1,0 +1,84 @@
+/* app/static/style.css */
+
+body {
+    background: #0d0d0f;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.neon-card {
+    background: #1a1a1e;
+    border: 1px solid #303036;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.scroll-panel {
+    height: 240px;
+    overflow-y: auto;
+    background: #111114;
+    padding: 15px;
+    border: 1px solid #3a3a40;
+}
+
+.answer-stream {
+    background: #16171a;
+    border: 1px solid #303036;
+    padding: 15px;
+    height: 160px;
+    overflow-y: auto;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    scroll-behavior: smooth;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff0077;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Cursor animation */
+.cursor {
+    display: inline-block;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.hidden {
+    display: none;
+}
+
+mark {
+    background: #ff0077;
+    color: #fff;
+    padding: 2px;
+}
